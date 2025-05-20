@@ -74,8 +74,8 @@ if (isset($_SESSION['error_message'])) {
             <label for="client_type" class="input-title">Tipo de Cliente:</label>
             <select id="client_type" name="client_type" class="form-control" required>
               <option value="">Seleccionar tipo</option>
-              <option value="person">Persona</option>
-              <option value="company">Empresa</option>
+              <option value="person">Persona Fisica</option>
+              <option value="company">Persona Moral</option>
             </select>
           </div>
           <!-- Cliente o Empresa -->

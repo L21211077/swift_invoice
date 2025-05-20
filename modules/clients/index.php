@@ -76,6 +76,10 @@ $clients = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </table>
             </div>
         <?php endif; ?>
+        
+        <div class="d-flex justify-content-start mt-4">
+            <a href="/swift_invoice/" class="btn btn-secondary">← Volver al inicio</a>
+        </div>
     </main>
 </body>
 
